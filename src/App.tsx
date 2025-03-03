@@ -48,6 +48,7 @@ export default function App() {
   function handleEdit(itemText: string) {
     setInput(itemText);
     setEditTask({ enabled: true, task: itemText });
+    
   }
 
   //TODO: Tornar para arrow function
